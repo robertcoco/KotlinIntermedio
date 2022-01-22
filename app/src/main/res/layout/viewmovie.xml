@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    >
+
+    <com.example.kotlinintermedio.MeasureRatio
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/unnamed__1_"
+        app:ratio="1.5" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0B2FEC"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:text="Ver pelicula"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="#84FFFF" />
+</LinearLayout>
